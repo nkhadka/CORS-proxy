@@ -13,6 +13,7 @@ app.use('/', function (req, res) {
   try {
     const url = 'https://bluesage-dev.bluesageusa.com'+ req.url
     req.pipe(request(url)).pipe(res)
+    console.log(req.url.slice(0,20))
   } catch (e) {console.log('error', e)}
 })
 
