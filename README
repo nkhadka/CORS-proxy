@@ -11,7 +11,7 @@ USAGE:
  
  now, if you point any urls to your local ip address (port 3030)
    such as http://192.168.0.102:3030/<somepathhere>
-   it will get relayed to  'https://bluesage-dev.bluesageusa.com'
+   it will get relayed to the url in index.js
    The server will then add proper response headers to work around CORS. 
 
 
